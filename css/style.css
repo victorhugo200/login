@@ -1,0 +1,104 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.principal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f50057;
+}
+
+.box {
+    max-width: 750px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+}
+
+.box img {
+    width: 50%;
+    border-right: 2px solid lightgray;
+}
+
+
+.content {
+    width: 50%;
+    padding: 0 20px;
+   
+
+}
+
+.content h3 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.login .password {
+    margin: 20px 0;
+}
+
+
+.btn-login {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    border: none;
+    padding: 5px;
+    background-color: #f50057;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color .2s ease;
+}
+
+
+.btn-login:hover {
+    background-color:#a01345fc ;
+}
+.btn-login  a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.bg-white {
+    background-color: white;
+}
+
+.content-table {
+    max-width: 700px;
+    width: 100%;
+}
+
+.content-table h2 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
