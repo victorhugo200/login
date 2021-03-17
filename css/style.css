@@ -102,3 +102,20 @@ body {
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
+
+.content-table  .buttons {
+    margin: 10px 0;
+
+}
+
+.content-table  .buttons button {
+    margin-right: 10px;
+    width: 90px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    outline: none;
+}
